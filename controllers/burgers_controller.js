@@ -3,9 +3,7 @@ var db = require('../models/index.js');
 module.exports = function (app) {
 
   app.get("/", function(req, res) {
-    db.Burger.findAll({
-      include: [db.Customer]
-    }).then(function(data) {
+    db.Burger.findAll({}).then(function(data) {
       var hbsObject = {
         burgers: data
       };
