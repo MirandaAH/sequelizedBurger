@@ -1,7 +1,4 @@
-DROP DATABASE IF EXISTS burgers_db;
-
-CREATE DATABASE burgers_db;
-USE burgers_db;
+USE jfyplp18on1l0kzx;
 
 CREATE TABLE burgers (
   id INT AUTO_INCREMENT NOT NULL,
@@ -9,4 +6,8 @@ CREATE TABLE burgers (
   devoured BOOLEAN,
   date date,
   PRIMARY KEY(id)
-)
+);
+
+CREATE TABLE customers (
+customer_name VARCHAR(200)NOT NULL
+);
