@@ -27,17 +27,9 @@ app.set('view engine', 'handlebars');
 
 require('./controllers/burgers_controller.js')(app);
 
-db.sequelize.sync({}).then(function(){
+db.sequelize.sync({force: true}).then(function(){
 
   app.listen(PORT, function() {
     console.log('Connection Successful');
   });
 });
-
-/*"production": {
-    "username": "vv4n0jd1ciadbyzi",
-    "password": "oz0jb4jbmw28o6il",
-    "database": "rx1h33ww1qgodymx",
-    "host": "http://t89yihg12rw77y6f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql"
-  }*/
