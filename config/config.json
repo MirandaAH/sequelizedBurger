@@ -9,7 +9,7 @@
   "test": {
     "username": "root",
     "password": null,
-    "database": "",
+    "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
@@ -20,5 +20,6 @@
       "host": "http://t89yihg12rw77y6f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
       "dialect": "mysql"
     }
+}
 
 }
