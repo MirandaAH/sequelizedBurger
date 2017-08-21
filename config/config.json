@@ -17,7 +17,7 @@
       "username": "vv4n0jd1ciadbyzi",
       "password": "oz0jb4jbmw28o6il",
       "database": "burgers_db",
-      "host": "t89yihg12rw77y6f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "host": "https://t89yihg12rw77y6f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
       "dialect": "mysql"
     }
 }
